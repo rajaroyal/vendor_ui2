@@ -1,175 +1,111 @@
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
-
-        <div id="wrapper">
-                <div class="row" style="margin-top:-50px;">
-                        <div class="col-sm-12">
-                            <div class="page-title" style="height:50px;background-color:#0593c5;">
-                         <div class="col-md-3"><h1 class="colr" routerLink="/importdata">Import database</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/createlist">Create List</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/itemsnew">Add Items</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/inbox">Inbox</h1></div>  
-                            </div>
-                        </div>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+                <app-rowside></app-rowside>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title">
+                        <h1>Dashboard<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">Dashboard</li>
+                        </ol>
                     </div>
-            <div class="content-wrapper container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="page-title">
-                            <h1>Dashboard<small></small></h1>
-                            <ol class="breadcrumb">
-                                <li><a href="#"><i class="fa fa-home"></i></a></li>
-                                <li class="active">Dashboard</li>
-                            </ol>
+                </div>
+            </div><!-- end .page title-->
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+                            <h4>User Performance</h4>
+
+                            <h2 class="pull-left">
+                                <i class="fa fa-users c4"></i></h2>
+                            <h2 class="pull-right">17,50</h2>
+                        </div>
+                        <div class="col-xs-12 text-right">60%</div><br>
+                        <div class="progress progress-sm">
+
+                            <div class="progress-bar progress-bar-danger" style="width: 60%;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
-                                <h4>User Performance</h4>
+                <div class="col-md-3">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
 
-                                <h2 class="pull-left">
-                                    <i class="fa fa-users c4"></i></h2>
-                                <h2 class="pull-right">17,50</h2>
-                            </div>
-                            <div class="col-xs-12 text-right">60%</div><br>
-                            <div class="progress progress-sm">
-
-                                <div class="progress-bar progress-bar-danger" style="width: 60%;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
-
-                                <h4>Users Activity</h4>
-                                <h2 class="pull-left">
-                                    <i class="fa fa-user c3"></i></h2>
-                                <h2 class="pull-right">250</h2>
-                            </div>
-
-
-                            <div class="col-xs-12 text-right">85%</div><br>
-                            <div class="progress progress-sm ">
-
-                                <div class="progress-bar progress-bar-danger p3-bg" style="width: 85%;" role="progressbar"> <span class="sr-only">85% Complete</span> </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
-
-                                <h4>HDD</h4>
-                                <h2 class="pull-left">
-                                    <i class="fa fa-battery-2 c2"></i></h2>
-                                <h2 class="pull-right">250</h2>
-                            </div>
-
-
-
-                            <div class="col-xs-12 text-right">50%</div><br>
-                            <div class="progress progress-sm">
-
-                                <div class="progress-bar progress-bar-danger p2-bg" style="width: 50%;" role="progressbar"> <span class="sr-only">50% Complete</span> </div>
-                            </div>
-
-
+                            <h4>Users Activity</h4>
+                            <h2 class="pull-left">
+                                <i class="fa fa-user c3"></i></h2>
+                            <h2 class="pull-right">250</h2>
                         </div>
 
-                    </div>
-                    <div class="col-md-3">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
-                                <h4>Pending Orders</h4>
-                                <h2 class="pull-left">
-                                    <i class="fa fa-shopping-cart c1"></i></h2>
-                                <h2 class="pull-right">256</h2>
-                            </div>
-                            <div class="col-xs-12 text-right">50%</div><br>
-                            <div class="progress progress-sm">
 
-                                <div class="progress-bar progress-bar-danger p1-bg" style="width: 50%;" role="progressbar"> <span class="sr-only">50% Complete</span> </div>
-                            </div>
+                        <div class="col-xs-12 text-right">85%</div><br>
+                        <div class="progress progress-sm ">
+
+                            <div class="progress-bar progress-bar-danger p3-bg" style="width: 85%;" role="progressbar"> <span class="sr-only">85% Complete</span> </div>
                         </div>
-                    </div>
-
-
-                </div>
-                <div class="row">
-                
-                
-                    <div class="col-sm-4">
-                         <div class="panel panel-card recent-activites">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">Total Money Spent</h4>
-                                <div class="panel-actions">
-                                    <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
-                                    <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
-                                </div>
-                            </div>
-                            <div class="panel-body text-center">
-                                <div id="morris-bar-chart" ></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="col-sm-4">
-                        <div class="panel panel-card recent-activites">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> Analytic Record</h4>
-                                <div class="panel-actions">
-                                    <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
-                                    <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
-                                </div>
-                            </div>
-                            <div class="panel-body text-center">
-                                <div id="morris-line-chart"></div>
-
-                            </div>
-                        </div>`
-                    </div>
-                    
-                     <div class="col-sm-4">
-
-                               <div class="panel panel-card recent-activites">
-                            <!-- Start .panel -->
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> Spark Line</h4>
-                                <div class="panel-actions">
-                                    <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
-                                    <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
-                                </div>
-                            </div>
-                            <div class="panel-body text-center">
-                                <div id="timeseriesChart" style="height:350px;"></div>
-
-                            </div>
-                        </div><!-- End .panel -->
-
 
 
                     </div>
                 </div>
-           
-         
+                <div class="col-md-3">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
 
-           
+                            <h4>HDD</h4>
+                            <h2 class="pull-left">
+                                <i class="fa fa-battery-2 c2"></i></h2>
+                            <h2 class="pull-right">250</h2>
+                        </div>
+
+
+
+                        <div class="col-xs-12 text-right">50%</div><br>
+                        <div class="progress progress-sm">
+
+                            <div class="progress-bar progress-bar-danger p2-bg" style="width: 50%;" role="progressbar"> <span class="sr-only">50% Complete</span> </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+                            <h4>Pending Orders</h4>
+                            <h2 class="pull-left">
+                                <i class="fa fa-shopping-cart c1"></i></h2>
+                            <h2 class="pull-right">256</h2>
+                        </div>
+                        <div class="col-xs-12 text-right">50%</div><br>
+                        <div class="progress progress-sm">
+
+                            <div class="progress-bar progress-bar-danger p1-bg" style="width: 50%;" role="progressbar"> <span class="sr-only">50% Complete</span> </div>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
+            
+            
+      
+
+
+
+            
+
+
         </div>
-    </section>
-</body>
+    </div>
+  </div>
+</section>

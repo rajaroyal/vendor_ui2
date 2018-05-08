@@ -1,51 +1,45 @@
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+            <app-rowside></app-rowside>
+          
+         
 
-        <div id="wrapper">
-          <div class="content-wrapper container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="page-title">
-                          <h1>Review Ratings<small></small></h1>
-                          <ol class="breadcrumb">
-                              <li><a href="#"><i class="fa fa-home"></i></a></li>
-                              <li class="active">review ratings</li>
-                          </ol>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="col-md-2"></div>
-             
-              <div class="col-md-8">
-                  <p><span class="glyphicon glyphicon-user"></span> Reatchall &nbsp; </p>
-              <div class="rating">
-                <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
-                <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
-                <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Pretty good">3 stars</label>
-                <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
-                <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Meh">1 star</label>
-           
-              </div>&nbsp; <span style="color:orange;">4.0 &nbsp; 350 reviews</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id eros pulvinar, luctus quam ac, pellentesque odio. Mauris ultrices pretium felis sit amet iaculis. Praesent vel ante eu nisl imperdiet placerat. Sed sit amet neque at risus viverra lobortis.</p>
+            
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title">
+                        <h1>Review Ratings<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">review ratings</li>
+                        </ol>
+                    </div>
+                </div>
             </div>
+            <div class="row">
               <div class="col-md-2"></div>
-</div>
-
-
-
-
-
-
-
-
-
+           
+            <div class="col-md-8">
+                <p><span class="glyphicon glyphicon-user"></span> Reatchall &nbsp; </p>
+            <div class="rating">
+              <input type="radio" id="star10" name="rating" value="10" /><label for="star10" title="Rocks!">5 stars</label>
+              <input type="radio" id="star9" name="rating" value="9" /><label for="star9" title="Rocks!">4 stars</label>
+              <input type="radio" id="star8" name="rating" value="8" /><label for="star8" title="Pretty good">3 stars</label>
+              <input type="radio" id="star7" name="rating" value="7" /><label for="star7" title="Pretty good">2 stars</label>
+              <input type="radio" id="star6" name="rating" value="6" /><label for="star6" title="Meh">1 star</label>
+         
+            </div>&nbsp; <span style="color:orange;">4.0 &nbsp; 350 reviews</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id eros pulvinar, luctus quam ac, pellentesque odio. Mauris ultrices pretium felis sit amet iaculis. Praesent vel ante eu nisl imperdiet placerat. Sed sit amet neque at risus viverra lobortis.</p>
           </div>
-      </div>
-    </section>
-</body>
+            <div class="col-md-2"></div>
+</div>
+        </div>
+    </div>
+  </div>
+</section>

@@ -1,92 +1,78 @@
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+            <app-rowside></app-rowside>
+          
+         
 
-        <div id="wrapper">
-            <div class="content-wrapper container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="page-title">
-                            <h1>Search history<small></small></h1>
-                            <ol class="breadcrumb">
-                                <li><a href="#"><i class="fa fa-home"></i></a></li>
-                                <li class="active">Search history</li>
-                            </ol>
-                        </div>
+            
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title">
+                        <h1>Search history<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">Search history</li>
+                        </ol>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                   <div class="row">
-                    <div class="col-lg-4">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
-                                <h4>View Count</h4>
+            <div class="row">
+               <div class="row">
+                <div class="col-lg-4">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+                            <h4>View Count</h4>
 
-                                
-                            </div>
-                        
+                            
                         </div>
-          <a routerLink="/businessanalasys"><button type="button" class="btn btn-primary" style="float:right;">view count</button></a>
+                    
                     </div>
+      <a routerLink="/businessanalasys"><button type="button" class="btn btn-primary" style="float:right;">view count</button></a>
+                </div>
 
-                    <div class="col-md-4">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
+                <div class="col-md-4">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
 
-                                <h4>Search history</h4>
-                                
-                            </div>
-
-
-
+                            <h4>Search history</h4>
+                            
                         </div>
-          <a routerLink="/searchhistory"><button type="button" class="btn btn-primary" style="float:right;">search history</button></a>
+
+
+
                     </div>
-           <div class="col-md-4">
-                        <div class="widget-box clearfix height-auto">
-                            <div class="pull text-left clearfix">
+      <a routerLink="/searchhistory"><button type="button" class="btn btn-primary" style="float:right;">search history</button></a>
+                </div>
+       <div class="col-md-4">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
 
-                                <h4>Arrived Through</h4>
-                                
-                            </div>
-
-
-
+                            <h4>Arrived Through</h4>
+                            
                         </div>
-          <a routerLink="/arrived"><button type="button" class="btn btn-primary" style="float:right;">Arrived Through</button></a>
+
+
+
                     </div>
+      <a routerLink="/arrived"><button type="button" class="btn btn-primary" style="float:right;">Arrived Through</button></a>
+                </div>
+           
+
+
+            </div>
+
                
-
-
-                </div>
-
-                   
-
-
-                </div>
-                           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             </div>
         </div>
-    </section>
-</body>
+    </div>
+  </div>
+</section>

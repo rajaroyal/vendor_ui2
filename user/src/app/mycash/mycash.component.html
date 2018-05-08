@@ -1,58 +1,61 @@
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
-
-        <div id="wrapper">
-          <div class="content-wrapper container">
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="page-title">
-                          <h1>MY CASH<small></small></h1>
-                          <ol class="breadcrumb">
-                              <li><a href="#"><i class="fa fa-home"></i></a></li>
-                              <li class="active">my cash</li>
-                          </ol>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="row">
-                  <div class="col-lg-6">
-                      <div class="widget-box clearfix height-auto">
-                          <div class="pull text-left clearfix">
-                              <h4>Present Cash</h4>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-md-6">
-                      <div class="widget-box clearfix height-auto">
-                          <div class="pull text-left clearfix">
-
-                              <h4>Payment History</h4>
-                              
-                          </div>
-
-
-
-                      </div>
-                  </div>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+            <app-rowside></app-rowside>
+          
          
-             
+
+            
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title">
+                        <h1>MY CASH<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">my cash</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+                            <h4>Present Cash</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+
+                            <h4>Payment History</h4>
+                            
+                        </div>
 
 
-              </div>
-                         
+
+                    </div>
+                </div>
        
+           
+
+
+            </div>
+                       
+     
 <h2>Available Balance:1800</h2>
-         
+       
 <a routerLink="/mycash"><button type="button" class="btn btn-primary">View Balance details</button></a>
 <a routerLink="/paymenthistory"><button type="button" class="btn btn-primary" style="float:right;">View Payment History</button></a>
-          </div>
-      </div>
-    </section>
-</body>
+        </div>
+    </div>
+  </div>
+</section>

@@ -3796,12 +3796,12 @@ body.page-small #wrapper {
     margin-left: 0;
 }
 #menu {
-    width: 180px;
+    width: 200px;
     bottom: 0;
     float: left;
     left: 0;
     position: absolute;
-    top: 62px;
+    top: 0px;
     transition: all 0.4s ease 0s;
 }
 .fixed-navbar #header {
@@ -8925,4 +8925,5 @@ ul.wysihtml5-toolbar div[data-wysihtml5-command-value="orange"] {
   input[type="radio"] .styled:checked + label::after {
     color: #fff;
   }
+  .colr{font-size:16px !important;}
   

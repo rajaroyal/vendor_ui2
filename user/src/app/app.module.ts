@@ -52,6 +52,9 @@ import { CreatebusinessComponent } from './createbusiness/createbusiness.compone
 import { VendorhomeComponent } from './vendorhome/vendorhome.component';
 import { LoginComponent } from './login/login.component';
 import { NewbusinessComponent } from './newbusiness/newbusiness.component';
+import { DummyComponent } from './dummy/dummy.component';
+import { RowsideComponent } from './rowside/rowside.component';
+import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
   
@@ -157,7 +160,7 @@ const routes: Routes = [
     component:HoursComponent
   },
   {
-    path:'Exclusiveoffer',
+    path:'exclusiveoffer',
     component:ExclusiveofferComponent
   },
   {
@@ -256,6 +259,18 @@ const routes: Routes = [
     path:'newbusiness',
     component:NewbusinessComponent
   },
+  {
+    path:'dummy',
+    component:DummyComponent
+  },
+  {
+    path:'rowside',
+    component:RowsideComponent
+  },
+  {
+    path:'list',
+    component:ListComponent
+  }, 
 ];
 @NgModule({
   declarations: [
@@ -308,7 +323,10 @@ const routes: Routes = [
     CreatebusinessComponent,
     VendorhomeComponent,
     LoginComponent,
-    NewbusinessComponent
+    NewbusinessComponent,
+    DummyComponent,
+    RowsideComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,

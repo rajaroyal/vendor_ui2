@@ -1,264 +1,257 @@
-
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
-
-            <div id="wrapper">
-                <div class="row" style="margin-top:-50px;">
-                        <div class="col-md-12">
-                            <div class="page-title" style="height:50px;background-color:#0593c5;">
-                         <div class="col-md-3"><h1 class="colr" routerLink="/importdata">Import database</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/createlist">Create List</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/itemsnew">Add Items</h1></div>
-                         <div class="col-md-3"><h1 class="colr" routerLink="/inbox">Inbox</h1></div>  
-                            </div>
-                        </div>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+            <app-rowside></app-rowside>
+          
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-title">
+                        <h1>Edit itemsnew<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">Edit itemsnew</li>
+                        </ol>
                     </div>
-            <div class="content-wrapper container">
-                    <div class="row">
-                            <div class="col-md-12">
-                                <div class="page-title">
-                                    <h1>Edit itemsnew<small></small></h1>
-                                    <ol class="breadcrumb">
-                                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                                        <li class="active">Edit itemsnew</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="row">
-                                       
-        <div class="col-md-12">
-                                <div class="panel panel-card margin-b-30">
-                                    <!-- Start .panel -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">Edit itemsnew</h4>
-                                        <div class="buttons" style="float:right;">
-                                          <div class="col-md-6">
-                                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Add New</button>
-                                                                            <div id="demo" class="collapse">
-                                                                                <div class="row">
-                                       
-                                                                                    <div class="col-md-12">
-                                                                                                            <div class="panel panel-card margin-b-30">
-                                                                                                                <!-- Start .panel -->
-                                                                                                                <div class="panel-heading">
-                                                                                                                    <h4 class="panel-title">Add Items</h4>
-                                                                                                                    <div class="panel-actions">
-                                                                                                                        <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
-                                                                                                                        <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="panel-body">
-                                                                                                                    <form role="form">
-                                                                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                    <div class="form-group"><label>Item Name</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Item Type</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label>Add image</label> 
-                                                                               
-                                                                                        <input type="file" name="pic" accept="image/*" class="form-control">
-                                                                                    </div>  
-                                                                                 
-                                                                                    <div class="form-group"><label> Item Price</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Item Discount</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Special offer</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                            
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                    <div class="form-group"><label> Choose list name(optional)</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Item Quantity</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Item Quality</label> 
-                                                                                        <input type="text" name="" class="form-control">
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Item description (choose any one language to write thedescription)</label> 
-                                                                                        <select class="form-control">
-                                                                            <option>Telugu</option>
-                                                                            <option>English</option>
-                                                                            <option>Hindhi</option>
-                                                                                        </select>
-                                                                                        <br>
-                                                                                        <textarea rows="2" cols="23" class="form-group"></textarea>   
-                                                                                        
-                                                                                    </div>
-                                                                                    <div class="form-group"><label> Add Extra Information</label> 
-                                                                                        <textarea rows="2" cols="23" class="form-group"></textarea> 
-                                                                                        </div>
-                                                                            
-                                                                                </div>
-                                                                            
-                                                                                                                        </div>
-                                                                                                   
-                                                                                               
-                                                                                                    
-                                                                                                                        <div>
-                                                                                                                            <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>Add Item</strong></button>
-                                                                                                                           
-                                                                                                                        </div>
-                                                                                                                    </form>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                           
-                                                                                                                   
-                                                                                                        
-                                                                                                        
-                                                                            
-                                                                                                                    
-                                                                            
-                                                                            
-                                                                            
-                                                                                                            
+                </div>
+            </div>
+
+            <div class="row">
+                           
+<div class="col-md-12">
+                    <div class="panel panel-card margin-b-30">
+                        <!-- Start .panel -->
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Edit itemsnew</h4>
+                            <div class="buttons" style="float:right;">
+                              <div class="col-md-6">
+                                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Add New</button>
+                                                                <div id="demo" class="collapse">
+                                                                    <div class="row">
+                           
+                                                                        <div class="col-md-12">
+                                                                                                <div class="panel panel-card margin-b-30">
+                                                                                                    <!-- Start .panel -->
+                                                                                                    <div class="panel-heading">
+                                                                                                        <h4 class="panel-title">Add Items</h4>
+                                                                                                        <div class="panel-actions">
+                                                                                                            <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+                                                                                                            <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
                                                                                                         </div>
-                                                                            
-                                                                                                       
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                                                           
-                                                                            
-                                                                            
-                                                                            
-                                                                                                      
-                                                                            
                                                                                                     </div>
-                                            </div>
-                                          </div>
-                                          <div class="col-md-3">
-                                            <button type="button" class="btn btn-info">Edit</button>
-                                          </div>
-                                          <div class="col-md-3">
-                                            <button type="button" class="btn btn-danger">Delete</button>
-                                          </div>
-                                                                                      </div>
-                                        <div class="panel-actions">
-                                            <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
-                                            <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="card">
-                                      <div class="container-fliud">
-                                        <div class="wrapper row">
-                                          <div class="preview col-md-6">
-                                            
-                                            <div class="preview-pic tab-content">
-                                              <div class="tab-pane active" id="pic-1"><img src="../assets/images/open.jpg" /></div>
-                                              <div class="tab-pane" id="pic-2"><img src="../assets/images/open.jpg" /></div>
-                                              <div class="tab-pane" id="pic-3"><img src="../assets/images/open.jpg" /></div>
-                                              <div class="tab-pane" id="pic-4"><img src="../assets/images/open.jpg" /></div>
-                                              <div class="tab-pane" id="pic-5"><img src="../assets/images/open.jpg" /></div>
-                                            </div>
-                                            <ul class="preview-thumbnail nav nav-tabs">
-                                              <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
-                                              <li><a data-target="#pic-2" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
-                                              <li><a data-target="#pic-3" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
-                                              <li><a data-target="#pic-4" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
-                                              <li><a data-target="#pic-5" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
-                                            </ul>
-                                            
-                                          </div>
-                                          <div class="details col-md-6">
-                                            <h3 class="product-title">Item name</h3>
-                         
-                                            <div class="rating">
-                                              <div class="stars">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star"></span>
-                                                <span class="fa fa-star"></span>
-                                              </div>
-                                              <span class="review-no">41 reviews</span>
-                                            </div>
-                                            <div class="center">
-                                       
-                                              <p>
-                                                </p><div class="input-group">
-                                                    <span class="input-group-btn">
-                                                        <button type="button" class="btn btn-info btn-number"  data-type="minus" data-field="quant[2]">
-                                                          <span class="glyphicon glyphicon-minus"></span>
-                                                        </button>
-                                                    </span>
-                                                    <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100" style="height: 33px !important;">
-                                                    <span class="input-group-btn">
-                                                        <button type="button" class="btn btn-info btn-number" data-type="plus" data-field="quant[2]">
-                                                            <span class="glyphicon glyphicon-plus"></span>
-                                                        </button>
-                                                    </span>
-                                                </div>
-                                     
-                                          </div>
-                                            <p> <span class="price"><i class="fa fa-inr"></i> 1000</span> &nbsp;<span><b style="color:red;">&nbsp; 10% offer</b></span></p>
-                                          <h4>Product details</h4>
-                                            <p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                           <h4>DESCRIPTION</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                                           <div class="action">
-                                        
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-
-
-
+                                                                                                    <div class="panel-body">
+                                                                                                        <form role="form">
+                                                                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                        <div class="form-group"><label>Item Name</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Item Type</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label>Add image</label> 
+                                                                   
+                                                                            <input type="file" name="pic" accept="image/*" class="form-control">
+                                                                        </div>  
+                                                                     
+                                                                        <div class="form-group"><label> Item Price</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Item Discount</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Special offer</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                        <div class="form-group"><label> Choose list name(optional)</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Item Quantity</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Item Quality</label> 
+                                                                            <input type="text" name="" class="form-control">
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Item description (choose any one language to write thedescription)</label> 
+                                                                            <select class="form-control">
+                                                                <option>Telugu</option>
+                                                                <option>English</option>
+                                                                <option>Hindhi</option>
+                                                                            </select>
+                                                                            <br>
+                                                                            <textarea rows="2" cols="23" class="form-group"></textarea>   
+                                                                            
+                                                                        </div>
+                                                                        <div class="form-group"><label> Add Extra Information</label> 
+                                                                            <textarea rows="2" cols="23" class="form-group"></textarea> 
+                                                                            </div>
+                                                                
+                                                                    </div>
+                                                                
+                                                                                                            </div>
+                                                                                       
+                                                                                   
+                                                                                        
+                                                                                                            <div>
+                                                                                                                <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>Add Item</strong></button>
+                                                                                                               
+                                                                                                            </div>
+                                                                                                        </form>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                               
+                                                                                                       
+                                                                                            
+                                                                                            
+                                                                
+                                                                                                        
+                                                                
+                                                                
+                                                                
+                                                                                                
+                                                                                            </div>
+                                                                
+                                                                                           
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                                               
+                                                                
+                                                                
+                                                                
+                                                                                          
+                                                                
+                                                                                        </div>
                                 </div>
-                               
-                                       
-                            
-                            
-
-                                        
-
-
-
-                                
+                              </div>
+                              <div class="col-md-3">
+                                <button type="button" class="btn btn-info">Edit</button>
+                              </div>
+                              <div class="col-md-3">
+                                <button type="button" class="btn btn-danger">Delete</button>
+                              </div>
+                                                                          </div>
+                            <div class="panel-actions">
+                                <a href="#" class="panel-action panel-action-toggle" data-panel-toggle></a>
+                                <a href="#" class="panel-action panel-action-dismiss" data-panel-dismiss></a>
                             </div>
-
+                        </div>
+                        
+                        <div class="card">
+                          <div class="container-fliud">
+                            <div class="wrapper row">
+                              <div class="preview col-md-6">
+                                
+                                <div class="preview-pic tab-content">
+                                  <div class="tab-pane active" id="pic-1"><img src="../assets/images/open.jpg" /></div>
+                                  <div class="tab-pane" id="pic-2"><img src="../assets/images/open.jpg" /></div>
+                                  <div class="tab-pane" id="pic-3"><img src="../assets/images/open.jpg" /></div>
+                                  <div class="tab-pane" id="pic-4"><img src="../assets/images/open.jpg" /></div>
+                                  <div class="tab-pane" id="pic-5"><img src="../assets/images/open.jpg" /></div>
+                                </div>
+                                <ul class="preview-thumbnail nav nav-tabs">
+                                  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
+                                  <li><a data-target="#pic-2" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
+                                  <li><a data-target="#pic-3" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
+                                  <li><a data-target="#pic-4" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
+                                  <li><a data-target="#pic-5" data-toggle="tab"><img src="../assets/images/open.jpg" /></a></li>
+                                </ul>
+                                
+                              </div>
+                              <div class="details col-md-6">
+                                <h3 class="product-title">Item name</h3>
+             
+                                <div class="rating">
+                                  <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  <span class="review-no">41 reviews</span>
+                                </div>
+                                <div class="center">
+                           
+                                  <p>
+                                    </p><div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-info btn-number"  data-type="minus" data-field="quant[2]">
+                                              <span class="glyphicon glyphicon-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100" style="height: 33px !important;">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-info btn-number" data-type="plus" data-field="quant[2]">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
                          
-
-
-                          
-
+                              </div>
+                                <p> <span class="price"><i class="fa fa-inr"></i> 1000</span> &nbsp;<span><b style="color:red;">&nbsp; 10% offer</b></span></p>
+                              <h4>Product details</h4>
+                                <p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                               <h4>DESCRIPTION</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                                           <div class="action">
+                            
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
 
-              </div>
-              </div>
-    </section>
-</body>
 
+
+                    </div>
+                   
+                           
+                
+                
+
+                            
+
+
+
+                    
+                </div>
+
+             
+
+
+              
+
+            </div>
+      
+
+
+
+            
+
+
+        </div>
+    </div>
+  </div>
+</section>

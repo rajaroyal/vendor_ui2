@@ -1,138 +1,132 @@
 <app-aside></app-aside>
-<body class="fixed-navbar fixed-sidebar">
-   
-   
-    <section class="page">
+<section class="page">
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
 
-            <app-sidebar></app-sidebar>
+    <div id="wrapper">
+        <div class="content-wrapper container">
+            <app-rowside></app-rowside>
+          
+         
 
-            <div id="wrapper">
-                <div class="content-wrapper container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="page-title">
-                                <h1>Payment History<small></small></h1>
-                                <ol class="breadcrumb">
-                                    <li><a href="#"><i class="fa fa-home"></i></a></li>
-                                    <li class="active">Payment History</li>
-                                </ol>
-                            </div>
-                        </div>
+            
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title">
+                        <h1>Payment History<small></small></h1>
+                        <ol class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a></li>
+                            <li class="active">Payment History</li>
+                        </ol>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="widget-box clearfix height-auto">
-                                <div class="pull text-left clearfix">
-                                    <h4>Present Cash</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+                            <h4>Present Cash</h4>
 
-                                    
-                                </div>
                             
-                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="widget-box clearfix height-auto">
+                        <div class="pull text-left clearfix">
+
+                            <h4>Payment History</h4>
+                            
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="widget-box clearfix height-auto">
-                                <div class="pull text-left clearfix">
-
-                                    <h4>Payment History</h4>
-                                    
-                                </div>
 
 
-
-                            </div>
-                        </div>
-               
-                        <a routerLink="/mycash"><button type="button" class="btn btn-primary">View Balance details</button></a>
-                        <a routerLink="/paymenthistory"><button type="button" class="btn btn-primary" style="float:right;">View Payment History</button></a>           
+                    </div>
+                </div>
+       
+                <a routerLink="/mycash"><button type="button" class="btn btn-primary">View Balance details</button></a>
+                <a routerLink="/paymenthistory"><button type="button" class="btn btn-primary" style="float:right;">View Payment History</button></a>           
 <br>
 
-                    </div>
+            </div>
 <br>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                      <div class="dd">
-                      <div class="row">
-                      <div class="col-md-8">
-                      <h3>transactionid:1425185</h3>
-                      </div>
-                      <div class="col-md-4">
-                      <h3>Date:1425185</h3>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                        <div class="panel-body">
-                      <div class="aec">
-                      <div class="row">
-                      <div class="col-md-3">
-                      <img src="images/as.png">
-                      </div>
-                      <div class="col-md-2">
-                      Order Status
-                      </div>
-                      <div class="col-md-2">
-                      <h3>RS/- 1800</h3>
-                      </div>
-                      <div class="col-md-2">
-                      <button type="button" class="btn btn-success">Mode of payment</button>
-                      </div>
-                      <div class="col-md-3">
-                      <button type="button" class="btn btn-primary">Payment Details</button>
-                      </div>
-                      </div>
-                      </div>
-                      
-                      </div>
-                      </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+              <div class="dd">
+              <div class="row">
+              <div class="col-md-8">
+              <h3>transactionid:1425185</h3>
+              </div>
+              <div class="col-md-4">
+              <h3>Date:1425185</h3>
+              </div>
+              </div>
+              </div>
+              </div>
+                <div class="panel-body">
+              <div class="aec">
+              <div class="row">
+              <div class="col-md-3">
+              <img src="images/as.png">
+              </div>
+              <div class="col-md-2">
+              Order Status
+              </div>
+              <div class="col-md-2">
+              <h3>RS/- 1800</h3>
+              </div>
+              <div class="col-md-2">
+              <button type="button" class="btn btn-success">Mode of payment</button>
+              </div>
+              <div class="col-md-3">
+              <button type="button" class="btn btn-primary">Payment Details</button>
+              </div>
+              </div>
+              </div>
+              
+              </div>
+              </div>
 
-                      <div class="panel panel-default">
-                          <div class="panel-heading">
-                        <div class="aaa">
-                        <div class="row">
-                        <div class="col-md-8">
-                        <h3>transactionid:1425185</h3>
-                        </div>
-                        <div class="col-md-4">
-                        <h3>Date:1425185</h3>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                          <div class="panel-body">
-                        <div class="aede">
-                        <div class="row">
-                        <div class="col-md-3">
-                        <img src="images/as.png">
-                        </div>
-                        <div class="col-md-2">
-                        Order Status
-                        </div>
-                        <div class="col-md-2">
-                        <h3>RS/- 1800</h3>
-                        </div>
-                        <div class="col-md-2">
-                        <button type="button" class="btn btn-success">Mode of payment</button>
-                        </div>
-                        <div class="col-md-3">
-                        <button type="button" class="btn btn-primary">Payment Details</button>
-                        </div>
-                        </div>
-                        </div>
-                        
-                        </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-                    </div>
-                    </div>
-    </section>
-</body>
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                <div class="aaa">
+                <div class="row">
+                <div class="col-md-8">
+                <h3>transactionid:1425185</h3>
+                </div>
+                <div class="col-md-4">
+                <h3>Date:1425185</h3>
+                </div>
+                </div>
+                </div>
+                </div>
+                  <div class="panel-body">
+                <div class="aede">
+                <div class="row">
+                <div class="col-md-3">
+                <img src="images/as.png">
+                </div>
+                <div class="col-md-2">
+                Order Status
+                </div>
+                <div class="col-md-2">
+                <h3>RS/- 1800</h3>
+                </div>
+                <div class="col-md-2">
+                <button type="button" class="btn btn-success">Mode of payment</button>
+                </div>
+                <div class="col-md-3">
+                <button type="button" class="btn btn-primary">Payment Details</button>
+                </div>
+                </div>
+                </div>
+                
+                </div>
+                </div>
+        </div>
+    </div>
+  </div>
+</section>
