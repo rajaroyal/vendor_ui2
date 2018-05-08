@@ -10,6 +10,8 @@ export class VendorhomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    
   }
 
 }
