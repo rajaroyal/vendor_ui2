@@ -271,6 +271,7 @@ const routes: Routes = [
     path:'list',
     component:ListComponent
   }, 
+  
 ];
 @NgModule({
   declarations: [
