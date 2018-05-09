@@ -70,3 +70,15 @@
      color: #3ec2de;
  }
  .panel{margin-bottom:-26px;}
+ @media (min-width: 1200px){
+.col-lg-offset-3 {
+     margin-left: 0%; 
+     width:44%;
+}
+ }
+ .inner-form{margin-top: 15px;
+    margin-bottom: 15px;
+margin-left:25px;
+}
+    .head{text-align:center;margin-top:20px;}
+    p{text-align:justify;}

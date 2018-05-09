@@ -131,5 +131,8 @@ input.cmn-toggle-round-flat:checked + label:after {
   margin-left: 45px;
   background-color: #27A1CA;
 }
-
+.navbar-default[_ngcontent-c3] .navbar-nav[_ngcontent-c3] > .open[_ngcontent-c3] > a[_ngcontent-c3], .navbar-default[_ngcontent-c3] .navbar-nav[_ngcontent-c3] > .open[_ngcontent-c3] > a[_ngcontent-c3]:focus, .navbar-default[_ngcontent-c3] .navbar-nav[_ngcontent-c3] > .open[_ngcontent-c3] > a[_ngcontent-c3]:hover {
+    color: #555;
+    background-color: #ffffff !important;
+}
 
