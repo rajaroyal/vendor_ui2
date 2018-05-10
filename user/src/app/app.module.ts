@@ -55,6 +55,8 @@ import { NewbusinessComponent } from './newbusiness/newbusiness.component';
 import { DummyComponent } from './dummy/dummy.component';
 import { RowsideComponent } from './rowside/rowside.component';
 import { ListComponent } from './list/list.component';
+import { AsidenewComponent } from './asidenew/asidenew.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 const routes: Routes = [
   
@@ -270,6 +272,14 @@ const routes: Routes = [
   {
     path:'list',
     component:ListComponent
+  },
+  {
+    path:'asidenew',
+    component:AsidenewComponent
+  },
+  {
+    path:'forgot',
+    component:ForgotComponent
   }, 
   
 ];
@@ -327,7 +337,9 @@ const routes: Routes = [
     NewbusinessComponent,
     DummyComponent,
     RowsideComponent,
-    ListComponent
+    ListComponent,
+    AsidenewComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,

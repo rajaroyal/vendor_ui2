@@ -11,7 +11,7 @@ export class VendorhomeComponent implements OnInit {
 
   ngOnInit() {
 
-    
+
   }
 
 }
